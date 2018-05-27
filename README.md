@@ -19,7 +19,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/GNU_Privacy_Guard):
 | macOS | [GPG Tools Suite][gpgtools] | Alternatively, you can install the _command-line_ version of GPG using [MacPorts] or [Homebrew]. Look for the `gpg2` package. |	
 | Windows | [gpg4win], Git Bash | Git Bash includes gnugpg and is available in the command line. |
 | Linux | `gpg2` comes pre-installed on modern Linux distributions| Instructions for [RHEL, CentOS, Amazon Linux, Oracle Linux][install-rhel], [Ubuntu][install-ubuntu], [Debian][install-debian], [Upstream GnuPG project downloads][install-upstream] |
-| Keybase | See child page…	| |
+| Keybase | [Keybase]	| |
 
 ## Generate a GPG Key Via Command Line
 
@@ -46,10 +46,11 @@ gpg --armor --output first_last.asc --export 'First Last'
 * [Keybase and KBFS](keybase.md)
 
   [gpg4win]: https://www.gpg4win.org
-  [gpgtools]: https://gpgtools.org
+  [gpgtools]: install-gpgtools-mac.md
   [Homebrew]: https://brew.sh
   [install-rhel]: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Security_Guide/sec-Encryption.html#sec-Creating_GPG_Keys
   [install-ubuntu]: https://help.ubuntu.com/community/GnuPrivacyGuardHowto
   [install-debian]: https://keyring.debian.org/creating-key.html
   [install-upstream]: https://gnupg.org/download/index.html
+  [Keybase]: keybase.md
   [MacPorts]: https://www.macports.org
