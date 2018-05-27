@@ -45,6 +45,24 @@ The **third** is to open the GPG Keychain, then drag one or more files into its 
 
 ## Encrypt a file
 
+You can right-click on a file, choose _Services_, then choose _OpenPGP: Encrypt file…_
 
+[![Encrypt File](encrypt-file.png)](encrypt-file.png)
+
+You will see a prompt which allows you to select which user to encrypt the file for.
+
+> **NOTE:** You will need that person's GPG Public Key to be imported first.
+
+[![Encrypt for Whom](encrypt-for-whom.png)](encrypt-for-whom.png)
+
+## Decrypt a file
+
+If you are the authorized recipient of an encrypted file, you can do the following.
+
+> **NOTE:** You will not be able to open an encrypted file that was not meant for you.
+
+You can right-click on a file, choose _Services_, then choose _OpenPGP: Decrypt file…_
+
+[![Decrypt File](decrypt-file.png)](decrypt-file.png)
 
   [gpgtools]: https://gpgtools.org
