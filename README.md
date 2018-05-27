@@ -40,6 +40,11 @@ cd ~/.gnugpg
 gpg --armor --output first_last.asc --export 'First Last'
 ```
 
+## See Also…
+
+* [Installing GPG Tools Suite for macOS](install-gpgtools-mac.md)
+* [Keybase and KBFS](keybase.md)
+
   [gpg4win]: https://www.gpg4win.org
   [gpgtools]: https://gpgtools.org
   [Homebrew]: https://brew.sh
