@@ -21,6 +21,25 @@ From [Wikipedia](https://en.wikipedia.org/wiki/GNU_Privacy_Guard):
 | Linux | `gpg2` comes pre-installed on modern Linux distributions| Instructions for [RHEL, CentOS, Amazon Linux, Oracle Linux][install-rhel], [Ubuntu][install-ubuntu], [Debian][install-debian], [Upstream GnuPG project downloads][install-upstream] |
 | Keybase | See child page…	| |
 
+## Generate a GPG Key Via Command Line
+
+```bash
+# make a key (if you don't already have one)
+gpg --gen-key
+ 
+... RSA and RSA is okay ...
+... 2048 bits is okay ...
+... 1y is okay (but choose your own duration) ...
+... Real name: First Last ...
+... Email address: me@email.com ...
+ 
+# lookie in here
+cd ~/.gnugpg
+ 
+# generate an ASCII output of your public key
+gpg --armor --output first_last.asc --export 'First Last'
+```
+
   [gpg4win]: https://www.gpg4win.org
   [gpgtools]: https://gpgtools.org
   [Homebrew]: https://brew.sh
