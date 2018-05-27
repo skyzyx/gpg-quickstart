@@ -17,10 +17,15 @@ From [Wikipedia](https://en.wikipedia.org/wiki/GNU_Privacy_Guard):
 |   | Recommended Software | Notes; Alternate software |
 | - | -------------------- | ------------------------- |
 | macOS | [GPG Tools Suite][gpgtools] | Alternatively, you can install the _command-line_ version of GPG using [MacPorts] or [Homebrew]. Look for the `gpg2` package. |	
-| Windows | gpg4win, Git Bash | Git Bash includes gnugpg and is available in the command line. |
-| Linux | gpg2 comes pre-installed on modern Linux distributions| Instructions for [RHEL, CentOS, Amazon Linux, Oracle Linux], [Ubuntu], [Debian], [Upstream GnuPG project downloads] |
-| Keybase | See child page…	|
+| Windows | [gpg4win], Git Bash | Git Bash includes gnugpg and is available in the command line. |
+| Linux | `gpg2` comes pre-installed on modern Linux distributions| Instructions for [RHEL, CentOS, Amazon Linux, Oracle Linux][install-rhel], [Ubuntu][install-ubuntu], [Debian][install-debian], [Upstream GnuPG project downloads][install-upstream] |
+| Keybase | See child page…	| |
 
+  [gpg4win]: https://www.gpg4win.org
   [gpgtools]: https://gpgtools.org
   [Homebrew]: https://brew.sh
+  [install-rhel]: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Security_Guide/sec-Encryption.html#sec-Creating_GPG_Keys
+  [install-ubuntu]: https://help.ubuntu.com/community/GnuPrivacyGuardHowto
+  [install-debian]: https://keyring.debian.org/creating-key.html
+  [install-upstream]: https://gnupg.org/download/index.html
   [MacPorts]: https://www.macports.org
