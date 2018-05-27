@@ -8,6 +8,6 @@
 
 First, open the _GPG Keychain_ and choose _New_.
 
-[![]()]()
+[![Create a new key](new-key.png)](new-key.png)
 
   [gpgtools]: https://gpgtools.org
